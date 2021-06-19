@@ -142,6 +142,8 @@ function draw() {
     }
   }
   
+   camera.position.x = displayWidth/2;
+   camera.position.y = trex.y;
   
   drawSprites();
 }
